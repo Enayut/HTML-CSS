@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    background-color: beige;
+    padding: 2.5%;
+    justify-content: center;
+    height: 500px;
+  }
+  
+  .content-box {
+    padding: 2%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content inside the content-box */
+    text-align: center; /* Center align the text */
+}
+
+.headings {
+    text-align: center;
+    color: rgb(110, 58, 24);
+    font-family:'Ysabeau Office', sans-serif;
+    text-transform: uppercase;
+}
+.content-box:hover{
+    transform: scale3d(1.2,1.2,1.2);
+}
+  
+  .pfp {
+    width: 45%;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: center; /* Center align the image horizontally */
+  }
+  .para{
+    color: rgb(110, 58, 24);
+    font-family:'Ysabeau Office', sans-serif;
+  }
+  
+#title{
+    background-color: rgb(83, 54, 15);
+    padding: 1.2%;
+    text-align: center;
+    color: beige;
+    font-family:'Ysabeau Office', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
