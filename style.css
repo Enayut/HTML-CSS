@@ -1,0 +1,96 @@
+.title{
+    background-color: cadetblue;
+    margin: 0%;
+    padding: 4.25%;
+}
+.title-tit{
+    
+    color:rgb(240, 196, 2);
+    font-size:4.5em;
+    text-align: center;
+    font-family: 'Climate Crisis', cursive;
+    font-weight: 200;
+}
+.heading{
+    color: rgb(206, 60, 60);
+    text-transform: uppercase;
+    font-family: 'Ysabeau Office';
+    font-weight: 200;
+}
+.heading:hover{
+    color: cadetblue;
+}
+body{
+    background-color:rgb(255, 235, 205) ;
+    background:radial-gradient( rgb(255, 235, 205),rgb(216, 175, 113) );
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+.option-text{
+    background-color:rgb(85, 63, 38);
+    display: flex;
+    padding: 1%;
+    align-items:center;
+    justify-content:space-around;
+}
+.option-text1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    
+}
+.option-text1:visited{
+    color: blanchedalmond;
+}
+.option-text1:hover{
+    color:cadetblue;
+    transform:scale3d(1.09,1.09,1.09);
+}
+
+.subtext{
+    color: rgba(240, 248, 255, 0.521);
+    font-style: italic;
+    font-size: small;
+    font-family: serif;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px; 
+    text-align: left;
+    border: 1px solid #a3a2a2;
+  }
+  
+  table th {
+    font-weight: bold;
+  }
+.tr{
+    text-align: center;
+}
+.pfp{
+    margin: 2%;
+    float: right;
+    /* display: inline-flex; */
+}
+.my-photo{
+    float: left;
+}
+.head{
+    font-weight: bold;
+}
+#ten{
+    color: black;
+    text-decoration: none;
+}
+#ten:hover{
+    color:cadetblue;
+}
+span{
+    display: none;
+}
