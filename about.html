@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Roboto:wght@300&family=Ysabeau+Office:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
-   <div id="title">
+   <div class="title">
     <h1>ABOUT ME</h1>
    </div>
    <div class="main">
@@ -34,11 +34,20 @@
             totam animi aut maior blanditiis velit accusantium quam? Porro earum cum aperiam!</p>
     </div>
    </div>
-   <div id="title">
-    <a href="../HTML/index.html">go back</footer>
-   </div>
+   <a href="../HTML/index.html"><div class="title titt">
+    go back
+   </div></a>
+   <div class="grid">
+    <div class="grid-item" style="background-color: rgba(220, 20, 60, 0.479); grid-area: 1/1/span 1/span 3;">A</div>
+    <div class="grid-item" style="background-color: rgba(0, 100, 0, 0.356); grid-area: 2/1/span 1/span 2;">B</div>
+    <div class="grid-item" style="background-color: rgba(0, 0, 255, 0.452); grid-area: 3/1/span 1/span 2;">C</div>
+    <div class="grid-item" style="background-color: rgba(255, 255, 0, 0.671); grid-area: 2/3/span 3/span 1;">D</div>    
+    <div class="grid-item" style="background-color: rgba(0, 0, 0, 0.342); grid-area: 4/1/span 1/span 1;">E</div>
+    <div class="grid-item" style="background-color: rgba(132, 40, 168, 0.342); grid-area: 4/2/span 1/span 1;">F</div>
+   </div> 
 </body>
 </html>
 
 
 <!-- instead of using flex-grow flex-shrink flex-baasis separately you can use flex grow shrink -->
+<!-- grid-row: 2/span 2; grid-column: 1/span 2;==============> grid-area=row/coloum sp r/c ep-->
